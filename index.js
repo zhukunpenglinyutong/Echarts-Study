@@ -1,7 +1,7 @@
 // 基于准备好的dom，初始化echarts实例
 var myChart = echarts.init(document.getElementById('main'));
 
-// 🚀 指定图表的配置项和数据（基础柱状图）
+// 🚀01 指定图表的配置项和数据（基础柱状图）
 // var option = {
 //   title: {
 //       text: 'ECharts 入门示例'
@@ -21,7 +21,7 @@ var myChart = echarts.init(document.getElementById('main'));
 //   }]
 // };
 
-// 🚀 柱状图变种 (在图形上显示数值)
+// 🚀02 基础柱状图变种 (在图形上显示数值)
 var option = {
   title: {
       text: 'ECharts 入门示例'
