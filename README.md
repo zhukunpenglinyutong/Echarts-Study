@@ -173,3 +173,39 @@ option = {
 
 ---
 
+### 第五次提交（2019.4.9 14:11）| 桑基图Sankey（基本使用）
+
+> 搞这个的原因，还是工作中用到了 ⌨️ 完整版见 index.js 🚀03
+
+```javascript
+
+option = {
+  series: {
+      type: 'sankey', // 桑基图Sankey
+      layout:'none',
+      focusNodeAdjacency: 'allEdges',
+      data: [{ // 🇨🇳 data的第一个 是根节点，剩下的才和links对应
+          name: '瓯江口H区'
+      }, {
+          name: '3#高压变压器'
+      }, {
+          name: '4#高压变压器'
+      }],
+      links: [{
+          source: '瓯江口H区',
+          target: '3#高压变压器',
+          value: 100 // 这个会跟同一级下面的进行比较
+      }, {
+          source: '瓯江口H区',
+          target: '4#高压变压器',
+          value: 10
+      }]
+  }
+}
+
+```
+
+![image](https://github.com/zhukunpenglinyutong/Echarts-Study/blob/master/imgs/5-1.png)
+![image](https://github.com/zhukunpenglinyutong/Echarts-Study/blob/master/imgs/5-2.png)
+
+---
