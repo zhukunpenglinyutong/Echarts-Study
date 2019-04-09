@@ -21,7 +21,7 @@ var option = {
 myChart.setOption(option);
 ```
 
-![image](https://github.com/zhukunpenglinyutong/Echarts-Study/blob/master/imgs/1-1.jpg)
+![image](https://github.com/zhukunpenglinyutong/Echarts-Study/blob/master/imgs/1-1.png)
 
 ---
 
@@ -113,7 +113,7 @@ option = {
 
 ```
 
-![image](https://github.com/zhukunpenglinyutong/Echarts-Study/blob/master/imgs/3-1.jpg)
+![image](https://github.com/zhukunpenglinyutong/Echarts-Study/blob/master/imgs/3-1.png)
 ![image](https://github.com/zhukunpenglinyutong/Echarts-Study/blob/master/imgs/3-2.jpg)
 
 ---
